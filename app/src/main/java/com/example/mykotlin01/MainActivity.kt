@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         var t2:TextView = findViewById(R.id.textView2) as TextView
         var t3:TextView = findViewById(R.id.textView3) as TextView
 
-        t1.setText("Android version = " + Build.VERSION.RELEASE)
+        t1.setText("Test Android version = " + Build.VERSION.RELEASE)
         t2.setText("API niveau = " + Build.VERSION.SDK_INT)
         t3.setText("Apparaat = " + Build.MANUFACTURER)
     }
